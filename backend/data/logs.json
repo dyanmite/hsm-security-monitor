@@ -1,0 +1,177 @@
+[
+  {
+    "time": "2026-02-04 18:53:15",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "e88da35da100dc8765945137eca647cef9f324857ce66b47e553a1e9d1325c9c",
+    "prevHash": "438e2170314646d91a3e88d126c6c1aed63e022f1b5613926eec5a3de0a621cb"
+  },
+  {
+    "time": "2026-02-04 18:53:05",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "438e2170314646d91a3e88d126c6c1aed63e022f1b5613926eec5a3de0a621cb",
+    "prevHash": "38b17cac6216d0810e4982001507a5aabac162c2b78ab619b5a54b4c8432cb30"
+  },
+  {
+    "time": "2026-02-04 18:47:17",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "38b17cac6216d0810e4982001507a5aabac162c2b78ab619b5a54b4c8432cb30",
+    "prevHash": "96d119ac582237b7ea89f94179b48a8415327307812d5b7aea4c974c175418a6"
+  },
+  {
+    "time": "2026-02-04 18:47:03",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "96d119ac582237b7ea89f94179b48a8415327307812d5b7aea4c974c175418a6",
+    "prevHash": "3bb4fbd961ec19f35156e81e1a4853099c00261d5acfb77174619f3e74fc9bc2"
+  },
+  {
+    "time": "2026-02-04 18:46:22",
+    "event": "QUANTUM_DECRYPTION_ATTEMPT",
+    "status": "LOCKED",
+    "hash": "3bb4fbd961ec19f35156e81e1a4853099c00261d5acfb77174619f3e74fc9bc2",
+    "prevHash": "6d1e0fb99c35e35a0f72dda9b8da0378e37d173c8edcca6275653d5156529278"
+  },
+  {
+    "time": "2026-02-04 17:29:28",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "6d1e0fb99c35e35a0f72dda9b8da0378e37d173c8edcca6275653d5156529278",
+    "prevHash": "c5d8c6a559c7e61ad9e4597d54c4e37bf54137d76f21d5ab794a8408574129ce"
+  },
+  {
+    "time": "2026-02-04 17:29:28",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "c5d8c6a559c7e61ad9e4597d54c4e37bf54137d76f21d5ab794a8408574129ce",
+    "prevHash": "d2b47a878639d2d6c99a5eada966a7bf902a1199173edcec9bd6e543fd265672"
+  },
+  {
+    "time": "2026-02-04 17:29:12",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "d2b47a878639d2d6c99a5eada966a7bf902a1199173edcec9bd6e543fd265672",
+    "prevHash": "498462b05af1ad636a850fe47d0019789bcc9df0bb06e1d7b3231f9a9f9bd786"
+  },
+  {
+    "time": "2026-02-04 17:28:26",
+    "event": "QUANTUM_DECRYPTION_ATTEMPT",
+    "status": "LOCKED",
+    "hash": "498462b05af1ad636a850fe47d0019789bcc9df0bb06e1d7b3231f9a9f9bd786",
+    "prevHash": "f1d9cda5676f26ebcfedc0025f8b80e55c964b989f04b9958f3c90369a6d4eaf"
+  },
+  {
+    "time": "2026-02-04 17:21:31",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "f1d9cda5676f26ebcfedc0025f8b80e55c964b989f04b9958f3c90369a6d4eaf",
+    "prevHash": "b5f1970aa8d963b32e9ee2a468a9e8b4babd7900408517e4b451846ffc95b6a0"
+  },
+  {
+    "time": "2026-02-04 17:20:44",
+    "event": "QUANTUM_DECRYPTION_ATTEMPT",
+    "status": "LOCKED",
+    "hash": "b5f1970aa8d963b32e9ee2a468a9e8b4babd7900408517e4b451846ffc95b6a0",
+    "prevHash": "8d9ed95f723e009117e7f4f9329ab7b650bb270f9e38918c558db7a0df3b0471"
+  },
+  {
+    "time": "2026-02-04 17:18:46",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "8d9ed95f723e009117e7f4f9329ab7b650bb270f9e38918c558db7a0df3b0471",
+    "prevHash": "9009158bdfa31d5921cd912171eeb19d77ea35286fdaec0039435db533b65ea7"
+  },
+  {
+    "time": "2026-02-04 17:17:36",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "9009158bdfa31d5921cd912171eeb19d77ea35286fdaec0039435db533b65ea7",
+    "prevHash": "e5ae45fcc4e8112394ac4a184e9a0be308faee8afe450d27ec7f5ac0b40a0e38"
+  },
+  {
+    "time": "2026-02-04 17:17:36",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "e5ae45fcc4e8112394ac4a184e9a0be308faee8afe450d27ec7f5ac0b40a0e38",
+    "prevHash": "48b9adfe80ad5082c28052b0b0db0b65cd1529d2d760f5a560b5664d7f8844cf"
+  },
+  {
+    "time": "2026-02-04 17:17:25",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "48b9adfe80ad5082c28052b0b0db0b65cd1529d2d760f5a560b5664d7f8844cf",
+    "prevHash": "b31d534f8cde10c240945af3ba650414bafe7772ba82e0ea1a15873a5b8f4bd2"
+  },
+  {
+    "time": "2026-02-04 17:16:57",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "b31d534f8cde10c240945af3ba650414bafe7772ba82e0ea1a15873a5b8f4bd2",
+    "prevHash": "1065b03d3834a92d51090156449b06cf411ee3b14a3259406d22194e8416a346"
+  },
+  {
+    "time": "2026-02-04 17:16:56",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "1065b03d3834a92d51090156449b06cf411ee3b14a3259406d22194e8416a346",
+    "prevHash": "8f0695a6c125d982797cb4c1bb2a2fc454671800ad772c9653b2c9f8256ccb85"
+  },
+  {
+    "time": "2026-02-04 17:16:47",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "8f0695a6c125d982797cb4c1bb2a2fc454671800ad772c9653b2c9f8256ccb85",
+    "prevHash": "4d63824b646df452117473d31428d7947c229022679a120a204f1dd204df1c25"
+  },
+  {
+    "time": "2026-02-04 17:15:43",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "4d63824b646df452117473d31428d7947c229022679a120a204f1dd204df1c25",
+    "prevHash": "2ef2fa8a534410a937d99f1c0b0a9d51c858d491d2517b3a721027940965557a"
+  },
+  {
+    "time": "2026-02-04 17:15:25",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "2ef2fa8a534410a937d99f1c0b0a9d51c858d491d2517b3a721027940965557a",
+    "prevHash": "c1ea8657f79e2d2b461ae91d6244dc6eeb71bef653ab4e8baa43606404059b12"
+  },
+  {
+    "time": "2026-02-04 17:14:08",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "c1ea8657f79e2d2b461ae91d6244dc6eeb71bef653ab4e8baa43606404059b12",
+    "prevHash": "879d09e0196e124731d837e028420410bfc113a4b07149ba5a953381ddd4e25d"
+  },
+  {
+    "time": "2026-02-04 17:10:58",
+    "event": "QUANTUM_DECRYPTION_ATTEMPT",
+    "status": "LOCKED",
+    "hash": "879d09e0196e124731d837e028420410bfc113a4b07149ba5a953381ddd4e25d",
+    "prevHash": "8215659c32cb2db8f9c909e4ccf5b9cf1b206dd645620385b8573315787e9ea0"
+  },
+  {
+    "time": "2026-02-04 16:08:21",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "8215659c32cb2db8f9c909e4ccf5b9cf1b206dd645620385b8573315787e9ea0",
+    "prevHash": "8940aa71005be84cc243de2307a67ada447873af353b7e951220a3f787d74e22"
+  },
+  {
+    "time": "2026-02-04 16:07:20",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "8940aa71005be84cc243de2307a67ada447873af353b7e951220a3f787d74e22",
+    "prevHash": "2d0a06c40e59da8cec0610e320a54390e788fe97480a7ef54dc8bc09cf5fb3a8"
+  },
+  {
+    "time": "2026-02-04 16:07:20",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "2d0a06c40e59da8cec0610e320a54390e788fe97480a7ef54dc8bc09cf5fb3a8",
+    "prevHash": "0000000000000000000000000000000000000000000000000000000000000000"
+  }
+]

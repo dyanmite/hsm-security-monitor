@@ -1,0 +1,12 @@
+[
+  {
+    "time": "2026-01-19T17:36:20.757Z",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED"
+  },
+  {
+    "time": "2026-01-28T20:20:31.488Z",
+    "event": "MAINTENANCE_MODE",
+    "status": "SAFE"
+  }
+]
