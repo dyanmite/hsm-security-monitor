@@ -4,12 +4,28 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 const fs = require("fs");
 const crypto = require("crypto");
+const gridSimulation = require("./simulation"); // [NEW] Simulation Module
 
 const app = express();
 const PORT = 3000;
 
 app.use(cors());
 app.use(express.json());
+
+// Start Simulation
+gridSimulation.start();
+
+// Listen for Simulation Events
+gridSimulation.on('intrusion', (data) => {
+  const eventName = data.type === "VOLTAGE_DROP" ? "GRID_VOLTAGE_COLLAPSE" : "GRID_FREQ_INSTABILITY";
+  addLog(eventName, "COMPROMISED");
+
+  // Send Email Alert
+  sendAlert(
+    `CRITICAL: ${eventName}`,
+    `Industrial Grid Anomaly Detected!\nType: ${data.type}\nVoltage: ${data.voltage}V\nFrequency: ${data.frequency}Hz\n\nImmediate Action Required.`
+  );
+});
 
 // =====================
 // LOCAL DB SETUP
@@ -242,6 +258,25 @@ app.post("/verify-otp", requireAuth, (req, res) => {
   }
   res.status(401).json({ error: "Invalid OTP" });
 });
+
+// =====================
+// GRID SIMULATION API
+// =====================
+app.get("/api/grid/status", (req, res) => {
+  res.json(gridSimulation.getStatus());
+});
+
+app.post("/api/grid/attack", (req, res) => {
+  const { type } = req.body; // "VOLTAGE_DROP" or "FREQ_SPIKE"
+  gridSimulation.triggerAttack(type || "VOLTAGE_DROP");
+  res.json({ success: true, message: "Attack Triggered" });
+});
+
+app.post("/api/grid/reset", (req, res) => {
+  gridSimulation.reset();
+  res.json({ success: true, message: "Grid Simulation Reset" });
+});
+
 
 // =====================
 // DATA ENDPOINTS

@@ -1,5 +1,75 @@
 [
   {
+    "time": "2026-02-13 13:51:33",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "7ee8b1dd8e30c17b95cbf9dc36d08e0d304058d33d8de8eec0448f3e379e47f2",
+    "prevHash": "2eaf71bb078b3fc9da36aa6b174161a05c8305ea2428bb04cc08e5276cc94007"
+  },
+  {
+    "time": "2026-02-13 13:51:14",
+    "event": "GRID_VOLTAGE_COLLAPSE",
+    "status": "COMPROMISED",
+    "hash": "2eaf71bb078b3fc9da36aa6b174161a05c8305ea2428bb04cc08e5276cc94007",
+    "prevHash": "d3e891cf12f94c1f3c1efd1233b495149bde77fd10366f3aa561fa6c2c65c86f"
+  },
+  {
+    "time": "2026-02-13 13:48:33",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "d3e891cf12f94c1f3c1efd1233b495149bde77fd10366f3aa561fa6c2c65c86f",
+    "prevHash": "3a7c1eea1a5a8b2a71e8645a525991cd145c27c967f652da9023599fa90d2220"
+  },
+  {
+    "time": "2026-02-13 13:48:21",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "3a7c1eea1a5a8b2a71e8645a525991cd145c27c967f652da9023599fa90d2220",
+    "prevHash": "4637b77b6b4e9224d9ed6e31b66aacc16117c33a4a7b5cbde2a573a811c5565b"
+  },
+  {
+    "time": "2026-02-13 13:46:37",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "4637b77b6b4e9224d9ed6e31b66aacc16117c33a4a7b5cbde2a573a811c5565b",
+    "prevHash": "d5050c8a3ec52cd71d9ef6954d186a910c7c0e9847894fc30ff0c7a74991ad84"
+  },
+  {
+    "time": "2026-02-13 13:46:25",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "d5050c8a3ec52cd71d9ef6954d186a910c7c0e9847894fc30ff0c7a74991ad84",
+    "prevHash": "3d587aab7f02a0b1d1995930c66338ab616257840c1c931efeaa72d166ccbf8e"
+  },
+  {
+    "time": "2026-02-13 13:45:07",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "3d587aab7f02a0b1d1995930c66338ab616257840c1c931efeaa72d166ccbf8e",
+    "prevHash": "0e2d49b96f687b05580e5444fa269d47f64af013cf29487421e4a927abcc4dd0"
+  },
+  {
+    "time": "2026-02-13 13:44:56",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "0e2d49b96f687b05580e5444fa269d47f64af013cf29487421e4a927abcc4dd0",
+    "prevHash": "588c0540c2c386207be263f1ea2400d4076148c5471e4ae59488583945240842"
+  },
+  {
+    "time": "2026-02-13 13:25:33",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "588c0540c2c386207be263f1ea2400d4076148c5471e4ae59488583945240842",
+    "prevHash": "b5ef6fd99b0811b3e0d0a2deada7e9abb8b8c407edbb254a0fe4f243460a1c87"
+  },
+  {
+    "time": "2026-02-13 13:13:05",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "b5ef6fd99b0811b3e0d0a2deada7e9abb8b8c407edbb254a0fe4f243460a1c87",
+    "prevHash": "e88da35da100dc8765945137eca647cef9f324857ce66b47e553a1e9d1325c9c"
+  },
+  {
     "time": "2026-02-04 18:53:15",
     "event": "ENCLOSURE_OPENED",
     "status": "LOCKED",

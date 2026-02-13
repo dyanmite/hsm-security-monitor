@@ -8,6 +8,7 @@ import LockdownPanel from "../components/LockdownPanel"
 import SensorStatusPanel from "../components/SensorStatusPanel"
 import QuantumSimulator from "../components/QuantumSimulator"
 import KeyVault from "../components/KeyVault"
+import GridMonitor from "../components/GridMonitor" // [NEW] SCADA View
 import { apiGet, apiPost } from "../api"
 
 function Dashboard() {
@@ -144,6 +145,13 @@ function Dashboard() {
             uptime={formatUptime(uptime)}
             lastTamper={logs[0]?.time || "—"}
           />
+        </div>
+
+        {/* =======================
+            ⚡ INDUSTRIAL GRID MONITOR
+        ======================= */}
+        <div className="mb-6">
+          <GridMonitor />
         </div>
 
         {/* =======================
