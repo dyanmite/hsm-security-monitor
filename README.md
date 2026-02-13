@@ -1,25 +1,25 @@
-# HSM Security Monitor 🛡️
-**Next-Gen Hardware Security Module (HSM) Dashboard**
+# Cyber Intrusion Detection System for Power and Industrial Control Networks
+**Problem Statement: HECEE003 | Cyber-Physical Security for Critical Infrastructure**
 
-This project is a React-based security dashboard for monitoring physical and cryptographic threats to Hardware Security Modules. It features real-time tamper detection, quantum-safe simulation, and secure logging.
+This project is a **Software-Defined Intrusion Detection System (IDS)** designed for Power Grids and Industrial Control Systems (ICS). It features real-time grid simulation, cyber-physical attack detection (Voltage/Frequency anomalies), and immutable forensic logging.
 
 ## 🚀 Features
-- **Real-Time Monitoring**: Live status of HSM physical sensors (Door, Vibration, Temperature).
-- **Quantum Threat Simulation**: Visual simulation of Grover's Algorithm attacks and system defensive response (Zeroization).
-- **Secure Logging**: SHA-256 Hash Chain logging to ensure data integrity (Blockchain-ready).
-- **OTP Authentication**: 2-Factor Authentication simulation for critical system access.
-- **PWA Ready**: Installable on mobile devices for on-the-go monitoring.
+- **Real-Time Grid Monitoring**: Live visualization of Voltage (220-240V) and Frequency (50Hz) data simulating a SCADA environment.
+- **Cyber-Physical Attack Detection**: Instantly detects "Voltage Collapse" and "Frequency Instability" attacks (e.g., Stuxnet-style sabotage).
+- **Secure Forensic Logging**: SHA-256 Hash Chain logging to ensure data integrity and non-repudiation (Blockchain-ready).
+- **Automated Incident Response**: Immediate email alerts (`Nodemailer`) triggered upon anomaly detection.
+- **Role-Based Reset**: Separate controls for "Grid Simulation Reset" and "System Security Unlock" to ensure operational continuity.
 
 ## 🛠️ Tech Stack
-- **Frontend**: React (Vite), TailwindCSS, Recharts
-- **Backend**: Node.js, Express (Local JSON DB / Firebase Ready)
-- **Hardware**: ESP32 Firmware for sensor integration
+- **Frontend**: React (Vite), TailwindCSS, Recharts (Industrial Dashboard)
+- **Backend**: Node.js, Express (Implements "Digital Twin" Simulation)
+- **Security**: SHA-256 Hashing, JWT Authentication
+- **Hardware Ready**: API-First design compatible with ESP32/ZMPT101B sensors
 
 ## 🔮 Roadmap
-- [ ] Firebase Cloud Integration
-- [ ] Blockchain Anchoring (Public Ledger)
-- [ ] AI-Powered Threat Analysis
-- [ ] Native Mobile App (React Native / Capacitor)
+- [ ] Integration with Real PLC/SCADA Hardware (Modbus/MQTT)
+- [ ] SIEM Integration (Splunk/ELK Forwarding)
+- [ ] AI-Powered Anomaly Detection (LSTM Models)
 
 ## 📦 Installation
 1. Clone the repository.
