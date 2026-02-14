@@ -1,5 +1,915 @@
 [
   {
+    "time": "2026-02-14 15:50:36",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "15752d49697ab3761942cc773f51616329a59922e8362d358f61dd9b58c589b5",
+    "prevHash": "9f481b5ed9c962eeb07d2be852876e83a6278cd78589e53d169e7ec235c7a4ca"
+  },
+  {
+    "time": "2026-02-14 15:50:24",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "9f481b5ed9c962eeb07d2be852876e83a6278cd78589e53d169e7ec235c7a4ca",
+    "prevHash": "e97a21f063bdfd7a0becda2da634eeaf0f2c5dd0486699a1c347aa675f1d775f"
+  },
+  {
+    "time": "2026-02-14 15:50:21",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "e97a21f063bdfd7a0becda2da634eeaf0f2c5dd0486699a1c347aa675f1d775f",
+    "prevHash": "abb3b838e9811f728cfa309a76fdc5aaa59358f6bc8ab1f0da81cea9758cad08"
+  },
+  {
+    "time": "2026-02-14 15:49:50",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "abb3b838e9811f728cfa309a76fdc5aaa59358f6bc8ab1f0da81cea9758cad08",
+    "prevHash": "f2729eaad0aa70f31c20c6b52ae88411cfd557defdf9ebc141a6ebf20f7de70c"
+  },
+  {
+    "time": "2026-02-14 15:38:04",
+    "event": "QUANTUM_DECRYPTION_ATTEMPT",
+    "status": "LOCKED",
+    "hash": "f2729eaad0aa70f31c20c6b52ae88411cfd557defdf9ebc141a6ebf20f7de70c",
+    "prevHash": "cac6ee96e5ad914cb92327630791219a5678e3a283680299b2dd5f49e280f663"
+  },
+  {
+    "time": "2026-02-14 15:37:48",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "cac6ee96e5ad914cb92327630791219a5678e3a283680299b2dd5f49e280f663",
+    "prevHash": "70371bd9bfc1e2bc487bbdabcb11c489b6cde0678bc0c02c240946a085d65932"
+  },
+  {
+    "time": "2026-02-14 15:36:59",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "70371bd9bfc1e2bc487bbdabcb11c489b6cde0678bc0c02c240946a085d65932",
+    "prevHash": "3f5ee84f0692e9f53b785ea831105028c59b005581a8132769d0155405e89693"
+  },
+  {
+    "time": "2026-02-14 15:36:06",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "3f5ee84f0692e9f53b785ea831105028c59b005581a8132769d0155405e89693",
+    "prevHash": "6293a5a64e5b860d7360774df70c7b300c9abb37208b3a593bc4166f9e793625"
+  },
+  {
+    "time": "2026-02-14 15:33:21",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "6293a5a64e5b860d7360774df70c7b300c9abb37208b3a593bc4166f9e793625",
+    "prevHash": "ccb7d7265a98e37589032477e65b57238bd5ace39483d44b8275da8df77febe2"
+  },
+  {
+    "time": "2026-02-14 15:32:57",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "ccb7d7265a98e37589032477e65b57238bd5ace39483d44b8275da8df77febe2",
+    "prevHash": "4ff2588c8dfb33c5c844aabf6eca7401b17be6ec88c83ca097f4669278fa7027"
+  },
+  {
+    "time": "2026-02-14 15:32:25",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "4ff2588c8dfb33c5c844aabf6eca7401b17be6ec88c83ca097f4669278fa7027",
+    "prevHash": "7e6708baa0795833494b15b05fc1d23c438b516da82744d392d0d1dcba262a56"
+  },
+  {
+    "time": "2026-02-14 15:30:39",
+    "event": "QUANTUM_DECRYPTION_ATTEMPT",
+    "status": "LOCKED",
+    "hash": "7e6708baa0795833494b15b05fc1d23c438b516da82744d392d0d1dcba262a56",
+    "prevHash": "aecae360d99d22f7790ef4c06b9a9c6ed8c09b8de658236f5a093824ec3aa562"
+  },
+  {
+    "time": "2026-02-14 15:30:15",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "aecae360d99d22f7790ef4c06b9a9c6ed8c09b8de658236f5a093824ec3aa562",
+    "prevHash": "fdf298907b10312ef905216b44ebe7e24d6615a3cd9d234364664aed00c19ac7"
+  },
+  {
+    "time": "2026-02-14 15:29:44",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "fdf298907b10312ef905216b44ebe7e24d6615a3cd9d234364664aed00c19ac7",
+    "prevHash": "190b1556b6b5bc274492d14bf0c3301e0c8a30b6d88b1c3eb1b3872fdce0a14a"
+  },
+  {
+    "time": "2026-02-14 15:29:41",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "190b1556b6b5bc274492d14bf0c3301e0c8a30b6d88b1c3eb1b3872fdce0a14a",
+    "prevHash": "6ed3db758826026af598c82eb7bf02ea7888d6e8283ab124033a3613cefa1463"
+  },
+  {
+    "time": "2026-02-14 15:29:10",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "6ed3db758826026af598c82eb7bf02ea7888d6e8283ab124033a3613cefa1463",
+    "prevHash": "000e86a5b5b289091ba59b15a4db996f57a589db9c69518eb363557a0131a469"
+  },
+  {
+    "time": "2026-02-14 15:28:45",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "000e86a5b5b289091ba59b15a4db996f57a589db9c69518eb363557a0131a469",
+    "prevHash": "ba9f2c43c6006a2ca93f6f444a7eaa6d97e4b879469d4203971da02291c1bf67"
+  },
+  {
+    "time": "2026-02-14 15:27:24",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "ba9f2c43c6006a2ca93f6f444a7eaa6d97e4b879469d4203971da02291c1bf67",
+    "prevHash": "c67e500ebfceeb063db5f949af932fb7f38c64b4bad168e2c9f3023d6a702a78"
+  },
+  {
+    "time": "2026-02-14 15:25:12",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "c67e500ebfceeb063db5f949af932fb7f38c64b4bad168e2c9f3023d6a702a78",
+    "prevHash": "fc940b8ba5a7f5a6ea8146f6314e5530055f5cc5334ca69677f6d730d51d9aba"
+  },
+  {
+    "time": "2026-02-14 15:24:56",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "fc940b8ba5a7f5a6ea8146f6314e5530055f5cc5334ca69677f6d730d51d9aba",
+    "prevHash": "1195b62a3a0cac5f396672d8b09955dff1d70e8493dd19e10161d37dc2e37ff9"
+  },
+  {
+    "time": "2026-02-14 14:57:56",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "1195b62a3a0cac5f396672d8b09955dff1d70e8493dd19e10161d37dc2e37ff9",
+    "prevHash": "eaa3260b19a61fa87117410d52444a60fbac6f11d157583e0d199e96f1bde1d8"
+  },
+  {
+    "time": "2026-02-14 14:57:25",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "eaa3260b19a61fa87117410d52444a60fbac6f11d157583e0d199e96f1bde1d8",
+    "prevHash": "8d232da6664cf4675e1b5c917db3ab42b6bddf8cdf9b0472b4220bf334cd60c9"
+  },
+  {
+    "time": "2026-02-14 14:56:42",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "8d232da6664cf4675e1b5c917db3ab42b6bddf8cdf9b0472b4220bf334cd60c9",
+    "prevHash": "f96132d7146c27a9907b9c9bd368fc2677b8648a6cdf57499b1d1a4602ff42ef"
+  },
+  {
+    "time": "2026-02-14 14:56:10",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "f96132d7146c27a9907b9c9bd368fc2677b8648a6cdf57499b1d1a4602ff42ef",
+    "prevHash": "9a5dedcc274b2253ffc8a6547f1f7c4cf466246a002ff510fc9b33d7a9c3e589"
+  },
+  {
+    "time": "2026-02-14 14:53:52",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "9a5dedcc274b2253ffc8a6547f1f7c4cf466246a002ff510fc9b33d7a9c3e589",
+    "prevHash": "430f54bf080f4b8dbf373b449a21896a8ad1d2dda9114d1f07ebf8ba43b3441e"
+  },
+  {
+    "time": "2026-02-14 14:53:37",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "430f54bf080f4b8dbf373b449a21896a8ad1d2dda9114d1f07ebf8ba43b3441e",
+    "prevHash": "5a99b6cc0e8d3ac2303ea26a0983cf984cd8a89169790ca50c9fb3a2b50dbb2d"
+  },
+  {
+    "time": "2026-02-14 14:53:18",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "5a99b6cc0e8d3ac2303ea26a0983cf984cd8a89169790ca50c9fb3a2b50dbb2d",
+    "prevHash": "5c5453ef1dc17cbb013f9039307481a5b66cb23c27c59a86e73976e035450487"
+  },
+  {
+    "time": "2026-02-14 14:52:47",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "5c5453ef1dc17cbb013f9039307481a5b66cb23c27c59a86e73976e035450487",
+    "prevHash": "0632c87527aac17da5470d389f59710ce3ba68f02d9f8a9ef5c9d1f6285bcedf"
+  },
+  {
+    "time": "2026-02-14 14:52:36",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "0632c87527aac17da5470d389f59710ce3ba68f02d9f8a9ef5c9d1f6285bcedf",
+    "prevHash": "a963229aa677367fe1340cc6b63837d0a48f25bd12418860aa3afbe7932d4802"
+  },
+  {
+    "time": "2026-02-14 14:52:20",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "a963229aa677367fe1340cc6b63837d0a48f25bd12418860aa3afbe7932d4802",
+    "prevHash": "71d46fa5b886ba22f95e6b85fa4219adb1ba60dbb08f5879e2f0a0b644d597f9"
+  },
+  {
+    "time": "2026-02-14 14:51:08",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "71d46fa5b886ba22f95e6b85fa4219adb1ba60dbb08f5879e2f0a0b644d597f9",
+    "prevHash": "169abd80b9461d325704b3d4295cb4a385ba1ada70c630211564b46d53865d0e"
+  },
+  {
+    "time": "2026-02-14 14:50:53",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "169abd80b9461d325704b3d4295cb4a385ba1ada70c630211564b46d53865d0e",
+    "prevHash": "b04d3f3d675b17ea40064fdc0ef93590df7bf1c214a7cb7e642c6f7d9b666cb9"
+  },
+  {
+    "time": "2026-02-14 14:50:46",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "b04d3f3d675b17ea40064fdc0ef93590df7bf1c214a7cb7e642c6f7d9b666cb9",
+    "prevHash": "9e8dcd3a5442e1adc7a11bb3df91de0a7ab8621bde230cab15dbb2e13078dbfb"
+  },
+  {
+    "time": "2026-02-14 14:50:15",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "9e8dcd3a5442e1adc7a11bb3df91de0a7ab8621bde230cab15dbb2e13078dbfb",
+    "prevHash": "6ce7fc8f5b438a61b1137c4ddb2d6de3d6bfeaf300943b99f54d637ffa75ba4e"
+  },
+  {
+    "time": "2026-02-14 14:48:02",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "6ce7fc8f5b438a61b1137c4ddb2d6de3d6bfeaf300943b99f54d637ffa75ba4e",
+    "prevHash": "535759cbf033d07fa59e4a852e4bfbad9434dc87bca6409d792f9bfa1fb2e44c"
+  },
+  {
+    "time": "2026-02-14 14:47:41",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "535759cbf033d07fa59e4a852e4bfbad9434dc87bca6409d792f9bfa1fb2e44c",
+    "prevHash": "b919fb4c62636f955457a0badb504a44565f1bd43bcaeb119ddf6812109c13ed"
+  },
+  {
+    "time": "2026-02-14 14:47:11",
+    "event": "QUANTUM_DECRYPTION_ATTEMPT",
+    "status": "LOCKED",
+    "hash": "b919fb4c62636f955457a0badb504a44565f1bd43bcaeb119ddf6812109c13ed",
+    "prevHash": "33217d9a9f93d77600f2b0148bba45e62fee790eb0c0a1c77a7dc46387feff27"
+  },
+  {
+    "time": "2026-02-14 14:46:33",
+    "event": "GRID_VOLTAGE_COLLAPSE",
+    "status": "COMPROMISED",
+    "hash": "33217d9a9f93d77600f2b0148bba45e62fee790eb0c0a1c77a7dc46387feff27",
+    "prevHash": "09364e667f4bda7c5e7ab4af5060f8b8465b0d496f8a3f49e6cf47b0a38554b9"
+  },
+  {
+    "time": "2026-02-14 14:45:36",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "09364e667f4bda7c5e7ab4af5060f8b8465b0d496f8a3f49e6cf47b0a38554b9",
+    "prevHash": "adeda0d024dbcfc2323899c9a0293e463cac104bd411b2726a760bc8fab47519"
+  },
+  {
+    "time": "2026-02-14 14:45:08",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "adeda0d024dbcfc2323899c9a0293e463cac104bd411b2726a760bc8fab47519",
+    "prevHash": "ef895e46657d9b6dcaea9eed77a05defd477c8040a25e7cc2be8e3591cc059f8"
+  },
+  {
+    "time": "2026-02-14 14:44:52",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "ef895e46657d9b6dcaea9eed77a05defd477c8040a25e7cc2be8e3591cc059f8",
+    "prevHash": "a6406e3361efd7996005063a6811c8511679bc3920630e20842d51fe5f975a53"
+  },
+  {
+    "time": "2026-02-14 14:44:32",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "a6406e3361efd7996005063a6811c8511679bc3920630e20842d51fe5f975a53",
+    "prevHash": "914ee7c2b1b6b74b92349c26c4c32f7ebff714f70697dbe217873e649270d2d7"
+  },
+  {
+    "time": "2026-02-14 14:44:02",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "914ee7c2b1b6b74b92349c26c4c32f7ebff714f70697dbe217873e649270d2d7",
+    "prevHash": "acbe8e3ce60acf336dc525f1d0d5823546c619a2ee5639b0d7cf6c31d003db7c"
+  },
+  {
+    "time": "2026-02-14 14:40:14",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "acbe8e3ce60acf336dc525f1d0d5823546c619a2ee5639b0d7cf6c31d003db7c",
+    "prevHash": "e79ce3d6d82b961dbe24e22422f15b3466488583ad55164252c1c53983c01142"
+  },
+  {
+    "time": "2026-02-14 14:40:08",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "e79ce3d6d82b961dbe24e22422f15b3466488583ad55164252c1c53983c01142",
+    "prevHash": "1922c044d5396fa265e97a98d69962877f0fe04b5dc1754e4549eb7b0b27f453"
+  },
+  {
+    "time": "2026-02-14 12:35:23",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "1922c044d5396fa265e97a98d69962877f0fe04b5dc1754e4549eb7b0b27f453",
+    "prevHash": "a2b6289470f435859777b5aba551429822e852a884c895016649b323530c7010"
+  },
+  {
+    "time": "2026-02-14 12:34:51",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "a2b6289470f435859777b5aba551429822e852a884c895016649b323530c7010",
+    "prevHash": "649196959f60d73e5f50fbe01d04b766330fbde049e052a205251f4fc3a67e22"
+  },
+  {
+    "time": "2026-02-14 12:26:29",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "649196959f60d73e5f50fbe01d04b766330fbde049e052a205251f4fc3a67e22",
+    "prevHash": "d6285840bce0720fd1b9abc9a6e61bf44910adbb3bd797dabdeaf1fb0dba072d"
+  },
+  {
+    "time": "2026-02-14 12:17:43",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "d6285840bce0720fd1b9abc9a6e61bf44910adbb3bd797dabdeaf1fb0dba072d",
+    "prevHash": "b99154dee8f100e0bddb7ee13ce9191fdc6847f27fcb4b4d666fe9fd4afdf27a"
+  },
+  {
+    "time": "2026-02-14 12:17:12",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "b99154dee8f100e0bddb7ee13ce9191fdc6847f27fcb4b4d666fe9fd4afdf27a",
+    "prevHash": "9778739c9a17a6fc08671f181a02240fa887145e6d6d7c9fa0910bf7290c297e"
+  },
+  {
+    "time": "2026-02-14 11:47:05",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "9778739c9a17a6fc08671f181a02240fa887145e6d6d7c9fa0910bf7290c297e",
+    "prevHash": "437877d478571ff3e29c61567a350dbda1d18285c1dfbe6a830b8a31960d4429"
+  },
+  {
+    "time": "2026-02-14 10:58:28",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "437877d478571ff3e29c61567a350dbda1d18285c1dfbe6a830b8a31960d4429",
+    "prevHash": "538b16eaa61fd7062038e4070d09183d34c0622ae84e2fa1d77fa58059a99197"
+  },
+  {
+    "time": "2026-02-14 10:57:42",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "538b16eaa61fd7062038e4070d09183d34c0622ae84e2fa1d77fa58059a99197",
+    "prevHash": "aabc89294346660e21d0a7cb06528f70285ca5e45bcfec592540d3ebc4207b9d"
+  },
+  {
+    "time": "2026-02-14 10:57:37",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "aabc89294346660e21d0a7cb06528f70285ca5e45bcfec592540d3ebc4207b9d",
+    "prevHash": "28a621b260bd182288d917866925ee0adecf08add83917aa8e421136de21bdb4"
+  },
+  {
+    "time": "2026-02-14 10:54:25",
+    "event": "GRID_FREQ_INSTABILITY",
+    "status": "COMPROMISED",
+    "hash": "28a621b260bd182288d917866925ee0adecf08add83917aa8e421136de21bdb4",
+    "prevHash": "ab979059176fb61bc36b929c412ef7559f82b032b49592276220fd9608288cc0"
+  },
+  {
+    "time": "2026-02-14 10:53:23",
+    "event": "GRID_VOLTAGE_COLLAPSE",
+    "status": "COMPROMISED",
+    "hash": "ab979059176fb61bc36b929c412ef7559f82b032b49592276220fd9608288cc0",
+    "prevHash": "25aa2a2e63f14f429d14b0e9dd1d990549fea928273cb43c9ceed1748ecd18e0"
+  },
+  {
+    "time": "2026-02-14 10:52:55",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "25aa2a2e63f14f429d14b0e9dd1d990549fea928273cb43c9ceed1748ecd18e0",
+    "prevHash": "7dd727a664d1966612d4d091503e4f58a000798ae6ab8dc3357a5e22c2a4d587"
+  },
+  {
+    "time": "2026-02-14 10:51:55",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "7dd727a664d1966612d4d091503e4f58a000798ae6ab8dc3357a5e22c2a4d587",
+    "prevHash": "dee456ea87535f0ea1e512580c885082d1d4224e1bc5550f62826683c6e2c0b1"
+  },
+  {
+    "time": "2026-02-14 10:51:53",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "dee456ea87535f0ea1e512580c885082d1d4224e1bc5550f62826683c6e2c0b1",
+    "prevHash": "933a780ebad2bd55924e2882e2cba6ef981069ab82bbf51fb8b1d13778ccd078"
+  },
+  {
+    "time": "2026-02-14 10:51:31",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "933a780ebad2bd55924e2882e2cba6ef981069ab82bbf51fb8b1d13778ccd078",
+    "prevHash": "9d6c9562564ec0abc7f46059dae582055fc0561a106561968735b6c8a1a8902e"
+  },
+  {
+    "time": "2026-02-14 10:51:29",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "9d6c9562564ec0abc7f46059dae582055fc0561a106561968735b6c8a1a8902e",
+    "prevHash": "95d364469d0509322bbe9fe5095d9365a45696bf8f8845a975f5348bb6b5c527"
+  },
+  {
+    "time": "2026-02-14 10:50:58",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "95d364469d0509322bbe9fe5095d9365a45696bf8f8845a975f5348bb6b5c527",
+    "prevHash": "af48605de91fcb5a5533a6f20c98d2828401f6eccf65c4b94c9a52225e9938fc"
+  },
+  {
+    "time": "2026-02-14 10:39:28",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "af48605de91fcb5a5533a6f20c98d2828401f6eccf65c4b94c9a52225e9938fc",
+    "prevHash": "0de9c6093971767447e45feaa2357f61e8f0c5554c8681dd1175b93cdfe2f06d"
+  },
+  {
+    "time": "2026-02-14 01:15:51",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "0de9c6093971767447e45feaa2357f61e8f0c5554c8681dd1175b93cdfe2f06d",
+    "prevHash": "366378204c7b1344d7cde3226251e2d67fd47db3561ecd5a3b7c634716f2593f"
+  },
+  {
+    "time": "2026-02-14 01:14:08",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "366378204c7b1344d7cde3226251e2d67fd47db3561ecd5a3b7c634716f2593f",
+    "prevHash": "c4326376d525652e08c1532461e62972db83dbf8de9d674a2d1efebae80d641c"
+  },
+  {
+    "time": "2026-02-14 01:13:37",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "c4326376d525652e08c1532461e62972db83dbf8de9d674a2d1efebae80d641c",
+    "prevHash": "3cd7c705a4e28569f7a9520a601eea64fab8987f482ced2fb0ba5604dda93ae4"
+  },
+  {
+    "time": "2026-02-14 01:12:14",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "3cd7c705a4e28569f7a9520a601eea64fab8987f482ced2fb0ba5604dda93ae4",
+    "prevHash": "6e62db14863525c52865d8161a1fdb51454eeb5670ec7ad2f3b98c6a426c7b4a"
+  },
+  {
+    "time": "2026-02-14 01:10:31",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "6e62db14863525c52865d8161a1fdb51454eeb5670ec7ad2f3b98c6a426c7b4a",
+    "prevHash": "033656726c4a4a97d302014dbcf1b9a23dbae5642a1f9fb4eeaedb03bb21d209"
+  },
+  {
+    "time": "2026-02-14 01:09:36",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "033656726c4a4a97d302014dbcf1b9a23dbae5642a1f9fb4eeaedb03bb21d209",
+    "prevHash": "a7377bfa745ca01f57a6b2124c371ad5730bb362e9278c531d9e2229a931a3ec"
+  },
+  {
+    "time": "2026-02-14 01:09:18",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "a7377bfa745ca01f57a6b2124c371ad5730bb362e9278c531d9e2229a931a3ec",
+    "prevHash": "2bb0a4d248306a221f74cedaecec956a1168bbb7ea077b2e6f001724b29e6443"
+  },
+  {
+    "time": "2026-02-14 01:09:03",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "2bb0a4d248306a221f74cedaecec956a1168bbb7ea077b2e6f001724b29e6443",
+    "prevHash": "62e30da2ad4301846dcbc8e91307d6801bbb5699525d9c3c578da3c29dc9f51a"
+  },
+  {
+    "time": "2026-02-14 01:07:06",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "62e30da2ad4301846dcbc8e91307d6801bbb5699525d9c3c578da3c29dc9f51a",
+    "prevHash": "eaf711930acef46524a04b6292184581ad157eca0f26c5f07eb293f0fe299566"
+  },
+  {
+    "time": "2026-02-14 01:06:50",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "eaf711930acef46524a04b6292184581ad157eca0f26c5f07eb293f0fe299566",
+    "prevHash": "e7a10a26088c8582fb0052481de9fc6dd936ee5a87eab4f51250b1b5dbd42317"
+  },
+  {
+    "time": "2026-02-14 01:05:38",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "e7a10a26088c8582fb0052481de9fc6dd936ee5a87eab4f51250b1b5dbd42317",
+    "prevHash": "24ef8b47bbcea0e9aecb1acca3271eeeb77f211798ada0a0c8938485b13fdb55"
+  },
+  {
+    "time": "2026-02-14 01:05:07",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "24ef8b47bbcea0e9aecb1acca3271eeeb77f211798ada0a0c8938485b13fdb55",
+    "prevHash": "4834bca4afa176081f119f23b2e50c3f0140c614d1b329a62af02eb62aacbb55"
+  },
+  {
+    "time": "2026-02-14 01:04:54",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "4834bca4afa176081f119f23b2e50c3f0140c614d1b329a62af02eb62aacbb55",
+    "prevHash": "c8e3c8322989a0e1392d10eea7c83fd1a89fdbc9a4cb39c9e5576eb80f93379e"
+  },
+  {
+    "time": "2026-02-14 01:03:24",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "c8e3c8322989a0e1392d10eea7c83fd1a89fdbc9a4cb39c9e5576eb80f93379e",
+    "prevHash": "848cc354dabe0f20823a21523d555dd484374c6e23e5fde8d378bb1106d4193e"
+  },
+  {
+    "time": "2026-02-14 01:03:07",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "848cc354dabe0f20823a21523d555dd484374c6e23e5fde8d378bb1106d4193e",
+    "prevHash": "75a06d58153b1ee99357ff33cb27415c07b97e43cc651a929f691487485deca8"
+  },
+  {
+    "time": "2026-02-14 01:03:04",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "75a06d58153b1ee99357ff33cb27415c07b97e43cc651a929f691487485deca8",
+    "prevHash": "a3c67681b78805650459cf7849592c014e87bd5aca202baf06bba786c27628a7"
+  },
+  {
+    "time": "2026-02-14 01:02:04",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "a3c67681b78805650459cf7849592c014e87bd5aca202baf06bba786c27628a7",
+    "prevHash": "d03357b97d793949f1aa9baf39910334d98def1fa443810f410c0c5009dcf909"
+  },
+  {
+    "time": "2026-02-14 01:01:50",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "d03357b97d793949f1aa9baf39910334d98def1fa443810f410c0c5009dcf909",
+    "prevHash": "75142b43811e1f9bc99e38a4a7465d3771b9fad02ff9f95c6f0b9437bfad5056"
+  },
+  {
+    "time": "2026-02-14 01:00:40",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "75142b43811e1f9bc99e38a4a7465d3771b9fad02ff9f95c6f0b9437bfad5056",
+    "prevHash": "bf434df967b10e57120d5ebf467f9009c51fd1c74bd0f892f74b09bb46502fd8"
+  },
+  {
+    "time": "2026-02-14 01:00:36",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "bf434df967b10e57120d5ebf467f9009c51fd1c74bd0f892f74b09bb46502fd8",
+    "prevHash": "d6a6fdfae1cfc31a2c32e669fab7682354993d5c0ec9f913e78607380f0583b3"
+  },
+  {
+    "time": "2026-02-14 00:02:09",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "d6a6fdfae1cfc31a2c32e669fab7682354993d5c0ec9f913e78607380f0583b3",
+    "prevHash": "7a5f397de8e2b6771ace9bd3087a19565aa5c3ecbb80f167eaa0b6063250fbf7"
+  },
+  {
+    "time": "2026-02-14 00:01:39",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "7a5f397de8e2b6771ace9bd3087a19565aa5c3ecbb80f167eaa0b6063250fbf7",
+    "prevHash": "150a250b5a57ea00d1aef8cd17ed2e0873fa0cec816769d58a841a6ed4fe771d"
+  },
+  {
+    "time": "2026-02-13 23:56:05",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "150a250b5a57ea00d1aef8cd17ed2e0873fa0cec816769d58a841a6ed4fe771d",
+    "prevHash": "6c226e5106b47ee0d75efdcb17143af466bc0b2a32d1a877dcaf536ebd8368cc"
+  },
+  {
+    "time": "2026-02-13 23:55:56",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "6c226e5106b47ee0d75efdcb17143af466bc0b2a32d1a877dcaf536ebd8368cc",
+    "prevHash": "89442ee79250b741341176ecd4156a37e1c443115a3a74c5bf4be3c56659d2ac"
+  },
+  {
+    "time": "2026-02-13 23:55:41",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "89442ee79250b741341176ecd4156a37e1c443115a3a74c5bf4be3c56659d2ac",
+    "prevHash": "dcc2330859bc4bc92ed4efb00c001582505b4506c5385639d90e570a1a67df7c"
+  },
+  {
+    "time": "2026-02-13 23:55:18",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "dcc2330859bc4bc92ed4efb00c001582505b4506c5385639d90e570a1a67df7c",
+    "prevHash": "33efdde859f3a4e9a2039f74e800e70168a3ef99b87a3828d2fbd9b8ee1ea641"
+  },
+  {
+    "time": "2026-02-13 23:54:46",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "33efdde859f3a4e9a2039f74e800e70168a3ef99b87a3828d2fbd9b8ee1ea641",
+    "prevHash": "d5483256426f113a3ccff7effbb66665f3a0796059f1bc01061eef8b61c5a91c"
+  },
+  {
+    "time": "2026-02-13 23:52:58",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "d5483256426f113a3ccff7effbb66665f3a0796059f1bc01061eef8b61c5a91c",
+    "prevHash": "e3939bc944648b4ccf735e54324bf962393e6adc163f913f2c139634031fe786"
+  },
+  {
+    "time": "2026-02-13 23:08:52",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "e3939bc944648b4ccf735e54324bf962393e6adc163f913f2c139634031fe786",
+    "prevHash": "b590d59b1cb382cdb16fbb5b9f444f1710120f4f1fa510823a885e428a1f5b13"
+  },
+  {
+    "time": "2026-02-13 23:08:50",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "b590d59b1cb382cdb16fbb5b9f444f1710120f4f1fa510823a885e428a1f5b13",
+    "prevHash": "1b65dde8d32a49283c92459c4e86ed1e70d60ac59d883b244ab6ebb39ac6c176"
+  },
+  {
+    "time": "2026-02-13 23:08:14",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "1b65dde8d32a49283c92459c4e86ed1e70d60ac59d883b244ab6ebb39ac6c176",
+    "prevHash": "455e12d25de732592f57fb325401eb79fb3a085215d13a0771b52804d673e297"
+  },
+  {
+    "time": "2026-02-13 23:08:14",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "455e12d25de732592f57fb325401eb79fb3a085215d13a0771b52804d673e297",
+    "prevHash": "b3ceb260c5ecb369e48b8a83c1f0b3a0bb78e5a800a3520a31ca571719e82c6d"
+  },
+  {
+    "time": "2026-02-13 23:07:32",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "b3ceb260c5ecb369e48b8a83c1f0b3a0bb78e5a800a3520a31ca571719e82c6d",
+    "prevHash": "7feea27026e5fcce54a53af3a0e37f744ca76603427815bda5b495361d68863e"
+  },
+  {
+    "time": "2026-02-13 23:06:26",
+    "event": "QUANTUM_DECRYPTION_ATTEMPT",
+    "status": "LOCKED",
+    "hash": "7feea27026e5fcce54a53af3a0e37f744ca76603427815bda5b495361d68863e",
+    "prevHash": "66faf69609f5791927c575156ee993d87e5600265a1e331a316d17b8f1602ad9"
+  },
+  {
+    "time": "2026-02-13 23:06:21",
+    "event": "QUANTUM_ENTROPY_COLLAPSE",
+    "status": "LOCKED",
+    "hash": "66faf69609f5791927c575156ee993d87e5600265a1e331a316d17b8f1602ad9",
+    "prevHash": "96fec7be9f90e80156a140b061e580564563f6d44d57fd07c15e1dc14e2b1387"
+  },
+  {
+    "time": "2026-02-13 23:05:52",
+    "event": "GRID_VOLTAGE_COLLAPSE",
+    "status": "COMPROMISED",
+    "hash": "96fec7be9f90e80156a140b061e580564563f6d44d57fd07c15e1dc14e2b1387",
+    "prevHash": "6c02c68cf1d4ed5a38930bd083f825949ea94f8f05c461fbb7c6f8422c917c86"
+  },
+  {
+    "time": "2026-02-13 23:05:47",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "6c02c68cf1d4ed5a38930bd083f825949ea94f8f05c461fbb7c6f8422c917c86",
+    "prevHash": "c7a7c4463c5fbb38c08b23f5722f521faee55a183799c5ee2200f3ac31c7b614"
+  },
+  {
+    "time": "2026-02-13 23:03:10",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "c7a7c4463c5fbb38c08b23f5722f521faee55a183799c5ee2200f3ac31c7b614",
+    "prevHash": "aa0cb291162eb4da2951e90e40c4db00a7f6641abef7bd8131a20b1b719e1def"
+  },
+  {
+    "time": "2026-02-13 23:02:14",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "aa0cb291162eb4da2951e90e40c4db00a7f6641abef7bd8131a20b1b719e1def",
+    "prevHash": "c5a3c88959e9ec5f119026aa1e88c558954070ecb2f611aff7843ebd0b5bb93c"
+  },
+  {
+    "time": "2026-02-13 23:01:24",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "c5a3c88959e9ec5f119026aa1e88c558954070ecb2f611aff7843ebd0b5bb93c",
+    "prevHash": "8aeedffd26cb2f3d97ade6448976943ba041ecf657f6d72311eb7c5956208ac7"
+  },
+  {
+    "time": "2026-02-13 23:00:28",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "8aeedffd26cb2f3d97ade6448976943ba041ecf657f6d72311eb7c5956208ac7",
+    "prevHash": "57beb511de26b7e9255633d403bc551cfb18cf726ea7162c4be9ba44849dd911"
+  },
+  {
+    "time": "2026-02-13 22:59:55",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "57beb511de26b7e9255633d403bc551cfb18cf726ea7162c4be9ba44849dd911",
+    "prevHash": "0c60b7899f296a4db361d226a8f9180a3b6ac3741e05b4c697d3fb60db54ebc2"
+  },
+  {
+    "time": "2026-02-13 22:54:22",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "0c60b7899f296a4db361d226a8f9180a3b6ac3741e05b4c697d3fb60db54ebc2",
+    "prevHash": "9a27e4d4f63907c75f7db69dd852862f497299caab7b15b55e08691a1a4f3b2b"
+  },
+  {
+    "time": "2026-02-13 22:53:42",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "9a27e4d4f63907c75f7db69dd852862f497299caab7b15b55e08691a1a4f3b2b",
+    "prevHash": "030f47f2eeac4074a11872b4cd308afda86ec385f5029c5ac99bda7f98b0886b"
+  },
+  {
+    "time": "2026-02-13 22:52:56",
+    "event": "PHYSICAL_MOVEMENT",
+    "status": "LOCKED",
+    "hash": "030f47f2eeac4074a11872b4cd308afda86ec385f5029c5ac99bda7f98b0886b",
+    "prevHash": "f8783e76a7cea319b7a45183c0fbcae22bd33dd6286c0b0e150cad2b95efab83"
+  },
+  {
+    "time": "2026-02-13 22:52:24",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "f8783e76a7cea319b7a45183c0fbcae22bd33dd6286c0b0e150cad2b95efab83",
+    "prevHash": "3ebfa0761ec9638f007419e0f181f38b2c7ce4cfeec37db65906aa017b316c45"
+  },
+  {
+    "time": "2026-02-13 22:51:09",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "3ebfa0761ec9638f007419e0f181f38b2c7ce4cfeec37db65906aa017b316c45",
+    "prevHash": "6113b2f02c18f68657b1acbee3e0c7f5b87c5b4625eac0cae9df237ead500f73"
+  },
+  {
+    "time": "2026-02-13 22:50:49",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "6113b2f02c18f68657b1acbee3e0c7f5b87c5b4625eac0cae9df237ead500f73",
+    "prevHash": "e6f8d918afadfa161a6032706f849b52029f4da765bf23ffc239c64bee0bcd38"
+  },
+  {
+    "time": "2026-02-13 22:50:10",
+    "event": "ENCLOSURE_OPENED",
+    "status": "LOCKED",
+    "hash": "e6f8d918afadfa161a6032706f849b52029f4da765bf23ffc239c64bee0bcd38",
+    "prevHash": "f0c699d8f671ddd8e95dd60f88affce5d5048f1664d976bcf7625f306f62bbe8"
+  },
+  {
+    "time": "2026-02-13 22:49:47",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "f0c699d8f671ddd8e95dd60f88affce5d5048f1664d976bcf7625f306f62bbe8",
+    "prevHash": "83200e414b44699d0b7fcccf025a4609da8f8274c7c1df5538882368e403ce1a"
+  },
+  {
+    "time": "2026-02-13 22:48:40",
+    "event": "LIGHT_INTRUSION",
+    "status": "LOCKED",
+    "hash": "83200e414b44699d0b7fcccf025a4609da8f8274c7c1df5538882368e403ce1a",
+    "prevHash": "d7f640d909fabf6241ce2cde015e5d98c2119f160f87168404b278a41ee9c76b"
+  },
+  {
+    "time": "2026-02-13 22:47:37",
+    "event": "DEVICE_RECONNECTED",
+    "status": "SAFE",
+    "hash": "d7f640d909fabf6241ce2cde015e5d98c2119f160f87168404b278a41ee9c76b",
+    "prevHash": "8a5d1bea2f8549f104ea46e60d697dda272dc2ffdbdb4536cb8762c1bf174fc6"
+  },
+  {
+    "time": "2026-02-13 22:43:19",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "8a5d1bea2f8549f104ea46e60d697dda272dc2ffdbdb4536cb8762c1bf174fc6",
+    "prevHash": "e750f4a02e86d92074f2c33d2eb82e06c5fd53ddc50710bcb40b83a3c7ebcf85"
+  },
+  {
+    "time": "2026-02-13 22:42:48",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "e750f4a02e86d92074f2c33d2eb82e06c5fd53ddc50710bcb40b83a3c7ebcf85",
+    "prevHash": "6d84015ebb2d376d35952c20a1b745f08a08bc2e70547d0cf82aa3290b639e12"
+  },
+  {
+    "time": "2026-02-13 22:42:27",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "6d84015ebb2d376d35952c20a1b745f08a08bc2e70547d0cf82aa3290b639e12",
+    "prevHash": "940c6f944a7430942bd59348c4916f2aae276b1d956bee23553141f34cea11df"
+  },
+  {
+    "time": "2026-02-13 22:26:21",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "940c6f944a7430942bd59348c4916f2aae276b1d956bee23553141f34cea11df",
+    "prevHash": "2acd57b854bd9593ede1be3a214e4a8c6fe18c82b9413074c7967a7c93a1927b"
+  },
+  {
+    "time": "2026-02-13 22:25:50",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "2acd57b854bd9593ede1be3a214e4a8c6fe18c82b9413074c7967a7c93a1927b",
+    "prevHash": "0891d0cd30a26a462939f28a5ded7b5d743cd829c7c325d6aa9eb59fb0da1a9c"
+  },
+  {
+    "time": "2026-02-13 22:25:29",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "0891d0cd30a26a462939f28a5ded7b5d743cd829c7c325d6aa9eb59fb0da1a9c",
+    "prevHash": "c66d3157b0f99ec13dee70c0c4b01a46e57a799996154f900c60e4c2d556cef6"
+  },
+  {
+    "time": "2026-02-13 22:24:25",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "c66d3157b0f99ec13dee70c0c4b01a46e57a799996154f900c60e4c2d556cef6",
+    "prevHash": "4e38fcffdb8b138611c2bde572942eadb6fe9d8c00c5905bf2abeb8fb5ef0acc"
+  },
+  {
+    "time": "2026-02-13 22:22:25",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "4e38fcffdb8b138611c2bde572942eadb6fe9d8c00c5905bf2abeb8fb5ef0acc",
+    "prevHash": "325266bb840a468364b2cb56b360d9f2e5d81745b9403e6fe02bc558de799b3e"
+  },
+  {
+    "time": "2026-02-13 22:22:15",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "325266bb840a468364b2cb56b360d9f2e5d81745b9403e6fe02bc558de799b3e",
+    "prevHash": "66b38aea295337bf412d28260b5babfe33fc71ef4866c192117c9a681076dbfd"
+  },
+  {
+    "time": "2026-02-13 22:13:49",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "66b38aea295337bf412d28260b5babfe33fc71ef4866c192117c9a681076dbfd",
+    "prevHash": "3a94c4b7bc5210ad303513a2173311de0ee6942476d1b4f1041cbe7523e0569b"
+  },
+  {
+    "time": "2026-02-13 22:13:39",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "3a94c4b7bc5210ad303513a2173311de0ee6942476d1b4f1041cbe7523e0569b",
+    "prevHash": "82555daf26090a7e5849b79c02f76f23de22cda4272c0a30ef7a652564dacef9"
+  },
+  {
+    "time": "2026-02-13 22:13:03",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "82555daf26090a7e5849b79c02f76f23de22cda4272c0a30ef7a652564dacef9",
+    "prevHash": "6eb78eb08654471746b1fec8dc393c9db3b2a48b383e732badc505413f6a3499"
+  },
+  {
+    "time": "2026-02-13 22:12:53",
+    "event": "SYSTEM_RESET",
+    "status": "SAFE",
+    "hash": "6eb78eb08654471746b1fec8dc393c9db3b2a48b383e732badc505413f6a3499",
+    "prevHash": "ea102edff729830a5962c819dace406e36088a11daa5c11766f24dc57b0b70ab"
+  },
+  {
+    "time": "2026-02-13 22:12:22",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "ea102edff729830a5962c819dace406e36088a11daa5c11766f24dc57b0b70ab",
+    "prevHash": "3ee4f169d622613e53758612a6b8dba5e461fc1185bcff3eeccb0f8104bda687"
+  },
+  {
+    "time": "2026-02-13 16:20:20",
+    "event": "DEVICE_DISCONNECTED",
+    "status": "LOCKED",
+    "hash": "3ee4f169d622613e53758612a6b8dba5e461fc1185bcff3eeccb0f8104bda687",
+    "prevHash": "7ee8b1dd8e30c17b95cbf9dc36d08e0d304058d33d8de8eec0448f3e379e47f2"
+  },
+  {
     "time": "2026-02-13 13:51:33",
     "event": "DEVICE_DISCONNECTED",
     "status": "LOCKED",
@@ -70,175 +980,175 @@
     "prevHash": "e88da35da100dc8765945137eca647cef9f324857ce66b47e553a1e9d1325c9c"
   },
   {
-    "time": "2026-02-04 18:53:15",
+    "time": "2026-02-13 18:53:15",
     "event": "ENCLOSURE_OPENED",
     "status": "LOCKED",
     "hash": "e88da35da100dc8765945137eca647cef9f324857ce66b47e553a1e9d1325c9c",
     "prevHash": "438e2170314646d91a3e88d126c6c1aed63e022f1b5613926eec5a3de0a621cb"
   },
   {
-    "time": "2026-02-04 18:53:05",
+    "time": "2026-02-13 18:53:05",
     "event": "SYSTEM_RESET",
     "status": "SAFE",
     "hash": "438e2170314646d91a3e88d126c6c1aed63e022f1b5613926eec5a3de0a621cb",
     "prevHash": "38b17cac6216d0810e4982001507a5aabac162c2b78ab619b5a54b4c8432cb30"
   },
   {
-    "time": "2026-02-04 18:47:17",
+    "time": "2026-02-13 18:47:17",
     "event": "ENCLOSURE_OPENED",
     "status": "LOCKED",
     "hash": "38b17cac6216d0810e4982001507a5aabac162c2b78ab619b5a54b4c8432cb30",
     "prevHash": "96d119ac582237b7ea89f94179b48a8415327307812d5b7aea4c974c175418a6"
   },
   {
-    "time": "2026-02-04 18:47:03",
+    "time": "2026-02-13 18:47:03",
     "event": "SYSTEM_RESET",
     "status": "SAFE",
     "hash": "96d119ac582237b7ea89f94179b48a8415327307812d5b7aea4c974c175418a6",
     "prevHash": "3bb4fbd961ec19f35156e81e1a4853099c00261d5acfb77174619f3e74fc9bc2"
   },
   {
-    "time": "2026-02-04 18:46:22",
+    "time": "2026-02-13 18:46:22",
     "event": "QUANTUM_DECRYPTION_ATTEMPT",
     "status": "LOCKED",
     "hash": "3bb4fbd961ec19f35156e81e1a4853099c00261d5acfb77174619f3e74fc9bc2",
     "prevHash": "6d1e0fb99c35e35a0f72dda9b8da0378e37d173c8edcca6275653d5156529278"
   },
   {
-    "time": "2026-02-04 17:29:28",
+    "time": "2026-02-13 17:29:28",
     "event": "LIGHT_INTRUSION",
     "status": "LOCKED",
     "hash": "6d1e0fb99c35e35a0f72dda9b8da0378e37d173c8edcca6275653d5156529278",
     "prevHash": "c5d8c6a559c7e61ad9e4597d54c4e37bf54137d76f21d5ab794a8408574129ce"
   },
   {
-    "time": "2026-02-04 17:29:28",
+    "time": "2026-02-13 17:29:28",
     "event": "ENCLOSURE_OPENED",
     "status": "LOCKED",
     "hash": "c5d8c6a559c7e61ad9e4597d54c4e37bf54137d76f21d5ab794a8408574129ce",
     "prevHash": "d2b47a878639d2d6c99a5eada966a7bf902a1199173edcec9bd6e543fd265672"
   },
   {
-    "time": "2026-02-04 17:29:12",
+    "time": "2026-02-13 17:29:12",
     "event": "SYSTEM_RESET",
     "status": "SAFE",
     "hash": "d2b47a878639d2d6c99a5eada966a7bf902a1199173edcec9bd6e543fd265672",
     "prevHash": "498462b05af1ad636a850fe47d0019789bcc9df0bb06e1d7b3231f9a9f9bd786"
   },
   {
-    "time": "2026-02-04 17:28:26",
+    "time": "2026-02-13 17:28:26",
     "event": "QUANTUM_DECRYPTION_ATTEMPT",
     "status": "LOCKED",
     "hash": "498462b05af1ad636a850fe47d0019789bcc9df0bb06e1d7b3231f9a9f9bd786",
     "prevHash": "f1d9cda5676f26ebcfedc0025f8b80e55c964b989f04b9958f3c90369a6d4eaf"
   },
   {
-    "time": "2026-02-04 17:21:31",
+    "time": "2026-02-13 17:21:31",
     "event": "SYSTEM_RESET",
     "status": "SAFE",
     "hash": "f1d9cda5676f26ebcfedc0025f8b80e55c964b989f04b9958f3c90369a6d4eaf",
     "prevHash": "b5f1970aa8d963b32e9ee2a468a9e8b4babd7900408517e4b451846ffc95b6a0"
   },
   {
-    "time": "2026-02-04 17:20:44",
+    "time": "2026-02-13 17:20:44",
     "event": "QUANTUM_DECRYPTION_ATTEMPT",
     "status": "LOCKED",
     "hash": "b5f1970aa8d963b32e9ee2a468a9e8b4babd7900408517e4b451846ffc95b6a0",
     "prevHash": "8d9ed95f723e009117e7f4f9329ab7b650bb270f9e38918c558db7a0df3b0471"
   },
   {
-    "time": "2026-02-04 17:18:46",
+    "time": "2026-02-13 17:18:46",
     "event": "SYSTEM_RESET",
     "status": "SAFE",
     "hash": "8d9ed95f723e009117e7f4f9329ab7b650bb270f9e38918c558db7a0df3b0471",
     "prevHash": "9009158bdfa31d5921cd912171eeb19d77ea35286fdaec0039435db533b65ea7"
   },
   {
-    "time": "2026-02-04 17:17:36",
+    "time": "2026-02-13 17:17:36",
     "event": "LIGHT_INTRUSION",
     "status": "LOCKED",
     "hash": "9009158bdfa31d5921cd912171eeb19d77ea35286fdaec0039435db533b65ea7",
     "prevHash": "e5ae45fcc4e8112394ac4a184e9a0be308faee8afe450d27ec7f5ac0b40a0e38"
   },
   {
-    "time": "2026-02-04 17:17:36",
+    "time": "2026-02-13 17:17:36",
     "event": "ENCLOSURE_OPENED",
     "status": "LOCKED",
     "hash": "e5ae45fcc4e8112394ac4a184e9a0be308faee8afe450d27ec7f5ac0b40a0e38",
     "prevHash": "48b9adfe80ad5082c28052b0b0db0b65cd1529d2d760f5a560b5664d7f8844cf"
   },
   {
-    "time": "2026-02-04 17:17:25",
+    "time": "2026-02-13 17:17:25",
     "event": "SYSTEM_RESET",
     "status": "SAFE",
     "hash": "48b9adfe80ad5082c28052b0b0db0b65cd1529d2d760f5a560b5664d7f8844cf",
     "prevHash": "b31d534f8cde10c240945af3ba650414bafe7772ba82e0ea1a15873a5b8f4bd2"
   },
   {
-    "time": "2026-02-04 17:16:57",
+    "time": "2026-02-13 17:16:57",
     "event": "LIGHT_INTRUSION",
     "status": "LOCKED",
     "hash": "b31d534f8cde10c240945af3ba650414bafe7772ba82e0ea1a15873a5b8f4bd2",
     "prevHash": "1065b03d3834a92d51090156449b06cf411ee3b14a3259406d22194e8416a346"
   },
   {
-    "time": "2026-02-04 17:16:56",
+    "time": "2026-02-13 17:16:56",
     "event": "ENCLOSURE_OPENED",
     "status": "LOCKED",
     "hash": "1065b03d3834a92d51090156449b06cf411ee3b14a3259406d22194e8416a346",
     "prevHash": "8f0695a6c125d982797cb4c1bb2a2fc454671800ad772c9653b2c9f8256ccb85"
   },
   {
-    "time": "2026-02-04 17:16:47",
+    "time": "2026-02-13 17:16:47",
     "event": "SYSTEM_RESET",
     "status": "SAFE",
     "hash": "8f0695a6c125d982797cb4c1bb2a2fc454671800ad772c9653b2c9f8256ccb85",
     "prevHash": "4d63824b646df452117473d31428d7947c229022679a120a204f1dd204df1c25"
   },
   {
-    "time": "2026-02-04 17:15:43",
+    "time": "2026-02-13 17:15:43",
     "event": "ENCLOSURE_OPENED",
     "status": "LOCKED",
     "hash": "4d63824b646df452117473d31428d7947c229022679a120a204f1dd204df1c25",
     "prevHash": "2ef2fa8a534410a937d99f1c0b0a9d51c858d491d2517b3a721027940965557a"
   },
   {
-    "time": "2026-02-04 17:15:25",
+    "time": "2026-02-13 17:15:25",
     "event": "DEVICE_DISCONNECTED",
     "status": "LOCKED",
     "hash": "2ef2fa8a534410a937d99f1c0b0a9d51c858d491d2517b3a721027940965557a",
     "prevHash": "c1ea8657f79e2d2b461ae91d6244dc6eeb71bef653ab4e8baa43606404059b12"
   },
   {
-    "time": "2026-02-04 17:14:08",
+    "time": "2026-02-13 17:14:08",
     "event": "SYSTEM_RESET",
     "status": "SAFE",
     "hash": "c1ea8657f79e2d2b461ae91d6244dc6eeb71bef653ab4e8baa43606404059b12",
     "prevHash": "879d09e0196e124731d837e028420410bfc113a4b07149ba5a953381ddd4e25d"
   },
   {
-    "time": "2026-02-04 17:10:58",
+    "time": "2026-02-13 17:10:58",
     "event": "QUANTUM_DECRYPTION_ATTEMPT",
     "status": "LOCKED",
     "hash": "879d09e0196e124731d837e028420410bfc113a4b07149ba5a953381ddd4e25d",
     "prevHash": "8215659c32cb2db8f9c909e4ccf5b9cf1b206dd645620385b8573315787e9ea0"
   },
   {
-    "time": "2026-02-04 16:08:21",
+    "time": "2026-02-13 16:08:21",
     "event": "SYSTEM_RESET",
     "status": "SAFE",
     "hash": "8215659c32cb2db8f9c909e4ccf5b9cf1b206dd645620385b8573315787e9ea0",
     "prevHash": "8940aa71005be84cc243de2307a67ada447873af353b7e951220a3f787d74e22"
   },
   {
-    "time": "2026-02-04 16:07:20",
+    "time": "2026-02-13 16:07:20",
     "event": "LIGHT_INTRUSION",
     "status": "LOCKED",
     "hash": "8940aa71005be84cc243de2307a67ada447873af353b7e951220a3f787d74e22",
     "prevHash": "2d0a06c40e59da8cec0610e320a54390e788fe97480a7ef54dc8bc09cf5fb3a8"
   },
   {
-    "time": "2026-02-04 16:07:20",
+    "time": "2026-02-13 16:07:20",
     "event": "ENCLOSURE_OPENED",
     "status": "LOCKED",
     "hash": "2d0a06c40e59da8cec0610e320a54390e788fe97480a7ef54dc8bc09cf5fb3a8",

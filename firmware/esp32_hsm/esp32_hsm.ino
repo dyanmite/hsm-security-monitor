@@ -2,15 +2,17 @@
 #include <WiFi.h>
 #include <WebServer.h>
 #include <HTTPClient.h>
+#include <LiquidCrystal_I2C.h>
 
-// ================= WIFI CONFIG =================
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
 // ================= WIFI CONFIG =================
 const char* ssid = "AndroidAP_4175";
 const char* password = "jash46666";
 
 // ================= BACKEND CONFIG =================
 // REPLACE THIS WITH YOUR LAPTOP'S IP ADDRESS PRINTED BY THE BACKEND
-String backendIP = "10.12.128.192"; 
+String backendIP = "10.129.218.192"; 
 const int backendPort = 3000;
 
 // ================= WEB SERVER =================
@@ -29,6 +31,7 @@ WebServer server(80);
 
 // ================= SYSTEM STATE =================
 bool tamper = false;
+String tamperReason = ""; // Store specific reason
 bool systemArmed = false;
 
 unsigned long bootTime;
@@ -39,7 +42,7 @@ long baseMagnitude = 0;
 int baseVoltage = 0;
 
 // ================= THRESHOLDS =================
-#define MOTION_THRESHOLD    5000
+#define MOTION_THRESHOLD    2000
 #define VOLTAGE_THRESHOLD   400
 
 // ================= HTTP SENDER =================
@@ -176,6 +179,14 @@ void setup() {
     while (1);
   }
 
+  // ===== LCD INIT =====
+  lcd.init();
+  lcd.backlight();
+  lcd.setCursor(0, 0);
+  lcd.print("HSM MONITOR");
+  lcd.setCursor(0, 1);
+  lcd.print("BOOTING...");
+
   bootTime = millis();
 
   // ===== WIFI INIT =====
@@ -270,6 +281,7 @@ void loop() {
     Serial.println("🚨 TAMPER: ENCLOSURE OPENED");
     sendTamperAlert("ENCLOSURE_OPENED", "LOCKED");
     tamper = true;
+    tamperReason = "CAUTION: OPENED";
   }
 
   // ================= LIGHT SENSOR =================
@@ -277,6 +289,7 @@ void loop() {
     Serial.println("🚨 TAMPER: LIGHT INTRUSION");
     sendTamperAlert("LIGHT_INTRUSION", "LOCKED");
     tamper = true;
+    tamperReason = "LIGHT DETECTED";
   }
 
   // ================= MPU MOTION =================
@@ -296,6 +309,7 @@ void loop() {
     Serial.println("🚨 TAMPER: PHYSICAL MOVEMENT");
     sendTamperAlert("PHYSICAL_MOVEMENT", "LOCKED");
     tamper = true;
+    tamperReason = "DEVICE MOVED";
   }
 
   // ================= VOLTAGE =================
@@ -306,6 +320,7 @@ void loop() {
     Serial.println("🚨 TAMPER: VOLTAGE GLITCH");
     sendTamperAlert("VOLTAGE_GLITCH", "LOCKED");
     tamper = true;
+    tamperReason = "VOLTAGE SURGE";
   }
 
   // ================= STATUS =================
@@ -317,6 +332,24 @@ void loop() {
   Serial.print(digitalRead(LIGHT_PIN));
   Serial.print(" | ΔM=");
   Serial.println(deltaM);
+
+  // ================= LCD UPDATE =================
+  lcd.setCursor(0, 0);
+  if (tamper) {
+    lcd.print("! LOCKDOWN !    ");
+    lcd.setCursor(0, 1);
+    lcd.print(tamperReason);
+    // Pad with spaces to clear line
+    for(int i=tamperReason.length(); i<16; i++) lcd.print(" ");
+  } else if (!systemArmed) {
+    lcd.print("CALIBRATING...  ");
+    lcd.setCursor(0, 1);
+    lcd.print("PLEASE WAIT...  ");
+  } else {
+    lcd.print("STATUS: SAFE    ");
+    lcd.setCursor(0, 1);
+    lcd.print("SENSORS ACTIVE  ");
+  }
 
   delay(500);
 }

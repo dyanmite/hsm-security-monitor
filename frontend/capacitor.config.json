@@ -1,0 +1,10 @@
+{
+  "appId": "com.hsm.guard",
+  "appName": "HSM Guard",
+  "webDir": "dist",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

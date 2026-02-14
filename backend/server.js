@@ -17,13 +17,30 @@ gridSimulation.start();
 
 // Listen for Simulation Events
 gridSimulation.on('intrusion', (data) => {
-  const eventName = data.type === "VOLTAGE_DROP" ? "GRID_VOLTAGE_COLLAPSE" : "GRID_FREQ_INSTABILITY";
-  addLog(eventName, "COMPROMISED");
+  let eventName = "";
+  let emailBody = "";
+
+  if (data.type === "GROVER") {
+    eventName = "QUANTUM_ENTROPY_COLLAPSE";
+    // 🚨 TRIGGER SYSTEM LOCKDOWN FOR QUANTUM THREAT
+    systemLocked = true;
+    zeroized = true;
+    systemStatus = "LOCKED";
+    activeTriggers.add("QUANTUM_THREAT");
+
+    emailBody = `🚨 QUANTUM THREAT DETECTED 🚨\n\nType: GROVER ALGORITHM\nEntropy: ${data.entropy}%\nStatus: KEYS ZEROIZED\n\nSystem has been LOCKED to prevent decryption.`;
+  } else {
+    eventName = data.type === "VOLTAGE_DROP" ? "GRID_VOLTAGE_COLLAPSE" : "GRID_FREQ_INSTABILITY";
+    emailBody = `Industrial Grid Anomaly Detected!\nType: ${data.type}\nVoltage: ${data.voltage}V\nFrequency: ${data.frequency}Hz\n\nImmediate Action Required.`;
+  }
+
+  const logStatus = data.type === "GROVER" ? "LOCKED" : "COMPROMISED";
+  addLog(eventName, logStatus);
 
   // Send Email Alert
   sendAlert(
     `CRITICAL: ${eventName}`,
-    `Industrial Grid Anomaly Detected!\nType: ${data.type}\nVoltage: ${data.voltage}V\nFrequency: ${data.frequency}Hz\n\nImmediate Action Required.`
+    emailBody
   );
 });
 
@@ -95,8 +112,8 @@ async function requireAuth(req, res, next) {
 // LOGIN ENDPOINT (Replaces Firebase Auth)
 app.post("/auth/login", (req, res) => {
   const { email, password } = req.body;
-  // Hardcoded Credentials
-  if (email === "admin" && password === "Luffy#2023") {
+  // Hardcoded Credentials (Relaxed Email Check)
+  if ((email === "admin" || email === "admin@hsm.sec" || email === "admin@local.host") && password === "kadhaipaneer") {
     res.json({ token: ADMIN_TOKEN, user: { email: "admin@local.host" } });
   } else {
     res.status(401).json({ error: "Invalid credentials" });
@@ -292,6 +309,17 @@ app.get("/esp/status", (req, res) => {
 app.post("/heartbeat", (req, res) => {
   lastHeartbeat = Date.now();
   console.log("[HEARTBEAT] Received ping from ESP32");
+
+  // AUTO-RECOVERY: If locked ONLY due to disconnection, unlock on new heartbeat
+  if (systemLocked && activeTriggers.has("DEVICE_DISCONNECTED") && activeTriggers.size === 1) {
+    console.log("[HEARTBEAT] Device Reconnected - Auto-Unlocking System");
+    systemStatus = "SAFE";
+    systemLocked = false;
+    zeroized = false;
+    activeTriggers.delete("DEVICE_DISCONNECTED");
+    addLog("DEVICE_RECONNECTED", "SAFE");
+  }
+
   if (systemStatus === "OFFLINE") {
     console.log("[HEARTBEAT] System back ONLINE");
     systemStatus = "SAFE";
@@ -303,10 +331,10 @@ app.get("/", (_, res) => res.send("HSM Secure Gateway (Local JSON Edition)"));
 
 app.get("/status", requireAuth, (req, res) => {
   const diff = Date.now() - lastHeartbeat;
-  const isOffline = diff > 7000;
+  const isOffline = diff > 15000; // 15 seconds timeout
 
-  // GRACE PERIOD: 10 seconds after reset
-  const inGracePeriod = Date.now() < (uptimeStart + 10000);
+  // GRACE PERIOD: 30 seconds after reset (Allow ESP reboot time)
+  const inGracePeriod = Date.now() < (uptimeStart + 30000);
 
   if (isOffline && !inGracePeriod && systemStatus !== "LOCKED" && systemStatus !== "OFFLINE") {
     console.log(`[HEARTBEAT] 🚨 Device OFFLINE (Possible Tamper) - LOCKING DOWN`);
@@ -353,6 +381,7 @@ app.post("/reset", requireAuth, (req, res) => {
   zeroized = false;
   activeTriggers.clear();
   uptimeStart = Date.now(); // Resets Helper for Grace Period
+  lastHeartbeat = Date.now(); // Reset heartbeat timer to give device a fresh start
   addLog("SYSTEM_RESET", "SAFE");
   sendAlert("System Reset", "System reset by admin.");
   res.json({ success: true });
