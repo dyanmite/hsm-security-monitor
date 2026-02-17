@@ -74,9 +74,9 @@ const GridMonitor = () => {
             </div>
 
             {/* Graphs Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8 min-w-0">
                 {/* Voltage Chart */}
-                <div className="bg-slate-950/50 p-4 rounded-xl border border-slate-800 relative overflow-hidden group">
+                <div className="bg-slate-950/50 p-4 rounded-xl border border-slate-800 relative overflow-hidden group min-w-0">
                     <div className="absolute inset-0 bg-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
                     <div className="flex justify-between items-end mb-4">
                         <h3 className="text-slate-400 text-sm font-semibold flex items-center gap-2">
@@ -104,7 +104,7 @@ const GridMonitor = () => {
                 </div>
 
                 {/* Frequency Chart */}
-                <div className="bg-slate-950/50 p-4 rounded-xl border border-slate-800 relative overflow-hidden group">
+                <div className="bg-slate-950/50 p-4 rounded-xl border border-slate-800 relative overflow-hidden group min-w-0">
                     <div className="absolute inset-0 bg-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
                     <div className="flex justify-between items-end mb-4">
                         <h3 className="text-slate-400 text-sm font-semibold flex items-center gap-2">
@@ -132,7 +132,7 @@ const GridMonitor = () => {
                 </div>
 
                 {/* Entropy Chart */}
-                <div className="bg-slate-950/50 p-4 rounded-xl border border-slate-800 relative overflow-hidden group">
+                <div className="bg-slate-950/50 p-4 rounded-xl border border-slate-800 relative overflow-hidden group min-w-0">
                     <div className="absolute inset-0 bg-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
                     <div className="flex justify-between items-end mb-4">
                         <h3 className="text-slate-400 text-sm font-semibold flex items-center gap-2">

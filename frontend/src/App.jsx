@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { useEffect, useState } from "react"
+import { App as CapApp } from '@capacitor/app';
 // REMOVED: import { onAuthStateChanged } from "firebase/auth";
 // REMOVED: import { auth } from "./firebase";
 
@@ -9,6 +10,7 @@ import Otp from "./pages/Otp"
 import Dashboard from "./pages/Dashboard"
 import Logs from "./pages/Logs"
 import Settings from "./pages/Settings"
+import Compliance from "./pages/Compliance"
 
 export default function App() {
   const [user, setUser] = useState(null);
@@ -28,8 +30,24 @@ export default function App() {
       setUser(null);
     }
 
+    /* ===========================
+       🔹 HARDWARE BACK BUTTON
+    =========================== */
+    let backListener;
+    const setupBack = async () => {
+      backListener = await CapApp.addListener('backButton', ({ canGoBack }) => {
+        if (window.history.length > 1 && document.location.pathname !== "/" && document.location.pathname !== "/dashboard" && document.location.pathname !== "/login") {
+          window.history.back();
+        } else {
+          CapApp.exitApp();
+        }
+      });
+    };
+    setupBack();
+
     return () => {
       document.removeEventListener("contextmenu", handleContextMenu);
+      if (backListener) backListener.remove();
     }
   }, []);
 
@@ -42,6 +60,7 @@ export default function App() {
         {/* Protected Routes could be wrapped here, but for now we rely on Backend check + Redirect */}
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/logs" element={<Logs />} />
+        <Route path="/compliance" element={<Compliance />} />
         <Route path="/settings" element={<Settings />} />
       </Routes>
     </BrowserRouter>

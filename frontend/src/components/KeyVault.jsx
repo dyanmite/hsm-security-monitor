@@ -43,7 +43,7 @@ export default function KeyVault({ systemStatus }) {
                 <p className="text-[10px] text-slate-500 mb-2 uppercase tracking-widest flex items-center justify-center gap-2">
                     <Key className="w-3 h-3" /> Master Encryption Key (AES-256)
                 </p>
-                <p className={`text-xl tracking-widest transition-all duration-300 font-bold ${systemStatus === "LOCKED" ? "text-red-500 blur-[1px] animate-pulse" : "text-cyan-400"}`}>
+                <p className={`text-lg md:text-xl tracking-widest transition-all duration-300 font-bold ${systemStatus === "LOCKED" ? "text-red-500 blur-[1px] animate-pulse" : "text-cyan-400"}`}>
                     {masterKey}
                 </p>
             </div>
@@ -57,6 +57,7 @@ export default function KeyVault({ systemStatus }) {
                     </div>
                 </div>
             )}
+
             {systemStatus !== "LOCKED" && (
                 <div className="mt-4 flex items-center gap-2 text-xs text-indigo-300/60 justify-center">
                     <ShieldCheck className="w-3 h-3" /> Integrity Verified

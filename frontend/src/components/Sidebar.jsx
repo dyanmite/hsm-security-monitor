@@ -9,6 +9,7 @@ export default function Sidebar() {
 
   const menu = [
     { name: "Dashboard", path: "/dashboard", icon: <LayoutDashboard className="w-5 h-5" /> },
+    { name: "Compliance", path: "/compliance", icon: <Shield className="w-5 h-5" /> },
     { name: "Tamper Logs", path: "/logs", icon: <FileText className="w-5 h-5" /> },
     { name: "Settings", path: "/settings", icon: <Settings className="w-5 h-5" /> },
   ]

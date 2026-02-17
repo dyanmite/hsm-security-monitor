@@ -42,8 +42,8 @@ export default function EventLogTable({ logs = [] }) {
         </button>
       </div>
 
-      <div className="max-h-[350px] overflow-y-auto custom-scrollbar">
-        <table className="w-full text-left border-collapse">
+      <div className="max-h-[350px] overflow-y-auto overflow-x-auto custom-scrollbar">
+        <table className="w-full text-left border-collapse min-w-[500px]">
           <thead className="sticky top-0 bg-slate-900 text-slate-400 text-xs uppercase tracking-wider font-semibold z-10 shadow-sm">
             <tr>
               <th className="py-3 pl-4 border-b border-white/5">Time</th>
