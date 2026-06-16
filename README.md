@@ -28,5 +28,10 @@ This project is a **Software-Defined Intrusion Detection System (IDS)** designed
 4. Run frontend: `npm run dev`
 5. Run backend: `node server.js`
 
+##Contributors:
+Navika Kapoor
+Jash Trehan
+Parthvi Mishra
+
 ---
 *Created by [Your Name] for Advanced Security Research Data.*
